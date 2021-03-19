@@ -95,13 +95,28 @@ code {
   background: rgb(238, 100, 100);    
 }
 
+.search-bar {
+  height: 30px;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.loading {
+  color:rgb(114, 114, 114);
+}
+
+.page-num {
+  color:rgb(5, 75, 206);
+  margin: 2px;
+}
+
 button:hover {
   transition: all .2s ease-in-out;
   transform: scale(1.1)
 } 
 
 input {
-  height: 30px;
+  
 }
 
 

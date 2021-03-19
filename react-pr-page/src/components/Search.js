@@ -1,12 +1,16 @@
 import { useState } from 'react'
 
-const Search = ({ searchValue }) => {
+const Search = ({ handleSearch }) => {
     return (
         <div>
-            Search: 
+            Search Pull Requests: 
             <input
+                onChange={(e) => {
+                    handleSearch(e.target.value);
+                }}
                 name="search"
                 type="text"
+                className="search-bar"
             />
         </div>
     )
